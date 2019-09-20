@@ -9,7 +9,7 @@
 		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
 	<!-- 使用Annotation自动注册Bean,只扫描@Controller -->  <!-- base-package 如果多个，用“,”分隔 -->
-	<context:component-scan base-package="cn.itcast.b2c.gciantispider.controller"  use-default-filters="false">  
+	<context:component-scan base-package="cn.yy.b2c.gciantispider.controller" use-default-filters="false">
 		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller" />
 	</context:component-scan>
 

@@ -11,8 +11,8 @@
 	<bean id="druid-stat-pointcut" class="org.springframework.aop.support.JdkRegexpMethodPointcut" scope="prototype">
 		<property name="patterns">
 			<list>
-				<value>cn.itcast.b2c.gciantispider.service.*</value>
-				<value>cn.itcast.b2c.gciantispider.dao.*</value>
+				<value>cn.yy.b2c.gciantispider.service.*</value>
+				<value>cn.yy.b2c.gciantispider.dao.*</value>
 			</list>
 		</property>
 	</bean>
